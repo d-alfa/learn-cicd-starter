@@ -40,4 +40,3 @@ func TestGetAPIKey(t *testing.T) {
 		t.Errorf("Expected error %v, but got %v", expectedErr, err)
 	}
 }
-
